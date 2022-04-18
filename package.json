@@ -1,0 +1,27 @@
+{
+  "name": "kea_webshop_backend",
+  "version": "1.0.0",
+  "description": "Sends mails",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "me",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-rate-limit": "^6.3.0",
+    "googleapis": "^99.0.0",
+    "helmet": "^5.0.2",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "nodemailer": "^6.7.3",
+    "sqlite": "^4.0.25",
+    "sqlite3": "^5.0.2",
+    "svelte-toasts": "^1.1.2"
+  }
+}
